@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F                   &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp TILDE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &kp F8                      &kp KP_PLUS    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LCTRL F4      &kp LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 4 LANG1  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE  &lt 1 ENTER                             &lt 6 DELETE
+&kp Q             &kp W         &kp E             &kp R                              &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F                              &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp TILDE
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                              &kp B        &kp F8                      &kp KP_PLUS    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LCTRL F4      &kp LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 4 LA(SINGLE_QUOTE)  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE  &lt 1 ENTER                             &lt 6 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -78,10 +78,10 @@
 
         num_arrow {
             bindings = <
-&trans  &kp EXCL  &kp QUESTION  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)                               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
-&trans  &trans    &trans        &kp LEFT_BRACKET          &kp RIGHT_BRACKET          &trans      &kp UNDERSCORE   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans
-&trans  &trans    &trans        &kp LT                    &kp GT                     &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
-&trans  &trans    &trans        &trans                    &trans                     &trans      &trans           &trans                                                        &trans
+&trans  &kp EXCL  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
+&trans  &trans    &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &kp UNDERSCORE   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans
+&trans  &trans    &trans        &kp LT                &kp GT                 &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
+&trans  &trans    &trans        &trans                &trans                 &trans      &trans           &trans                                                        &trans
             >;
         };
 
