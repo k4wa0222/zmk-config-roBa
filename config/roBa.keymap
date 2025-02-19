@@ -13,34 +13,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -78,18 +51,18 @@
 
         num_arrow {
             bindings = <
-&kp ESC           &trans  &kp QUESTION      &kp LS(N8)         &kp LS(N9)                                        &kp UP_ARROW    &kp LS(MINUS)    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&trans            &trans  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&kp LEFT_SHIFT    &trans  &kp LS(NUMBER_2)  &kp LT             &kp GT         &kp LS(MINUS)      &kp LS(SLASH)   &kp FSLH        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&kp LEFT_CONTROL  &trans  &trans            &trans             &trans         &trans             &trans          &trans                                                             &trans
+&kp ESC           &trans  &kp QUESTION      &kp LS(N8)         &kp LS(N9)                                        &kp UP_ARROW    &kp SINGLE_QUOTE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&trans            &trans  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp LEFT_SHIFT    &trans  &kp LS(NUMBER_2)  &kp LT             &kp GT         &kp LS(MINUS)      &kp LS(SLASH)   &kp FSLH        &kp KP_NUMBER_0   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&kp LEFT_CONTROL  &trans  &trans            &trans             &trans         &trans             &trans          &trans                                                              &kp SEMICOLON
             >;
         };
 
         other {
             bindings = <
-&kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &trans  &trans  &trans                                             &trans  &trans  &kp F7  &kp F8  &kp F9
-&trans                &trans                &trans  &trans  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &trans  &kp F4  &kp F5  &kp F6
-&trans                &trans                &trans  &trans  &mkp MB1      &mkp MB2                     &trans  &trans  &trans  &kp F1  &kp F2  &kp F3
+&kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &trans  &trans  &trans                                             &trans  &trans  &trans  &trans  &trans
+&trans                &trans                &trans  &trans  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans                &trans  &trans  &mkp MB1      &mkp MB2                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans                &trans                &trans  &trans  &trans        &trans                       &trans  &trans                          &trans
             >;
         };
