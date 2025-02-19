@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F                   &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp TILDE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &kp F8                      &kp KP_PLUS    &kp N        &kp M  &kp COMMA  &kp DOT  &kp LEFT_BRACKET
+&kp A             &kp S         &kp D             &kp F                   &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp LS(EQUAL)
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &kp F7                      &kp KP_PLUS    &kp N        &kp M  &kp COMMA  &kp DOT  &kp LEFT_BRACKET
 &mt LCTRL F4      &kp LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 4 LANG1  &lt 3 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE  &lt 1 ENTER                             &lt 6 DELETE
             >;
 
@@ -78,27 +78,27 @@
 
         num_arrow {
             bindings = <
-&kp ESC         &trans  &kp QUESTION      &kp LS(N8)         &kp LS(N9)                                         &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp SLASH  &trans
-&trans          &trans  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans             &kp UNDERSCORE   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans
-&kp LEFT_SHIFT  &trans  &kp LS(NUMBER_2)  &kp LT             &kp GT         &kp LS(MINUS)      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp NUMBER_2     &kp KP_NUMBER_3  &trans     &trans
-&trans          &trans  &trans            &trans             &trans         &trans             &trans           &trans                                                        &trans
+&kp ESC           &trans  &kp QUESTION      &kp LS(N8)         &kp LS(N9)                                        &kp UP_ARROW    &kp LS(MINUS)    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&trans            &trans  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp LEFT_SHIFT    &trans  &kp LS(NUMBER_2)  &kp LT             &kp GT         &kp LS(MINUS)      &kp LS(SLASH)   &kp FSLH        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&kp LEFT_CONTROL  &trans  &trans            &trans             &trans         &trans             &trans          &trans                                                             &trans
             >;
         };
 
         other {
             bindings = <
-&kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &trans  &trans  &trans                                             &kp HOME        &kp UP_ARROW    &trans           &trans  &trans
-&trans                &trans                &trans  &trans  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans                &trans                &trans  &trans  &mkp MB1      &mkp MB2                     &trans  &kp END         &trans          &trans           &trans  &trans
-&trans                &trans                &trans  &trans  &trans        &trans                       &trans  &trans                                                   &trans
+&kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &trans  &trans  &trans                                             &trans  &trans  &kp F7  &kp F8  &kp F9
+&trans                &trans                &trans  &trans  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &trans  &kp F4  &kp F5  &kp F6
+&trans                &trans                &trans  &trans  &mkp MB1      &mkp MB2                     &trans  &trans  &trans  &kp F1  &kp F2  &kp F3
+&trans                &trans                &trans  &trans  &trans        &trans                       &trans  &trans                          &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &kp F7  &kp F8  &kp F9
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp F4  &kp F5  &kp F6
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp F1  &kp F2  &kp F3
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
