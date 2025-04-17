@@ -54,7 +54,7 @@
 &kp LS(NUMBER_7)  &kp EXCLAMATION  &kp QUESTION          &kp LS(N8)         &kp LS(N9)                                          &kp UP_ARROW    &kp FSLH         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &kp LS(N4)        &kp LS(N5)       &kp LS(N6)            &kp RIGHT_BRACKET  &kp BACKSLASH  &trans             &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
 &kp LEFT_SHIFT    &kp LS(N2)       &kp LS(N3)            &kp LT             &kp GT         &kp LS(MINUS)      &kp SINGLE_QUOTE  &kp SEMICOLON   &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&kp LEFT_CONTROL  &trans           &kp LS(SINGLE_QUOTE)  &trans             &trans         &trans             &trans            &trans                                                             &kp UNDER
+&kp LEFT_CONTROL  &trans           &kp LS(SINGLE_QUOTE)  &trans             &trans         &trans             &trans            &trans                                                             &kp LS(INTERNATIONAL_1)
             >;
         };
 
